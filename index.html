@@ -402,6 +402,7 @@
                 <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </div>
+        <div class="soc-sub-block">
         <div>
                 <strong>присоединяйтесь</strong>    
                 <ul class="ft-socials-list do-flex">
@@ -446,10 +447,53 @@
                 </li>
                 </ul>
         </div>
+        <div class="subscription-block">
+            <div class="footer-fields">
+                <label for="subscription">Подпишитесь на рассылку</label>
+                <input type="email" name="subscription" id="subscription" placeholder="E-mail">
+            </div>
+            <button type="submit" class="button">Подписаться</button>
+        </div>
+        </div>
     </div>
+
     </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
+<b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+
+        <form class="order" >
+            
+                <div class="fields">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div class="fields">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+
+            <div class="fields">
+                <label for="email">Почта</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="text-area">
+                <label for="comment">Комментарий</label>    
+                <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
+            </div>
+            
+            <div class="fields">
+                <input type="checkbox" name="apr" id="apr">
+                <label for="apr">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+            </div>
+
+            <button class="button">Отправить</button>
+        </form>
+
+
+        
         <button class="close-btn" data-modal-close>
             <svg class="close-x" width="11" height="11">
                 <use href="./images/main-opt.svg#icon-x"> </use>
