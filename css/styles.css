@@ -354,6 +354,7 @@ strong {
 }
 
 .subscription-block {
+  position: relative;
   display: flex;
   align-items: flex-end;
 }
@@ -395,6 +396,18 @@ strong {
   margin-left: 12px;
 }
 
+.sub-btn-pln {
+  position: relative;
+}
+
+.plane-icon {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translate(-23px, -50%);
+
+  fill: var(--second-accent-color);
+}
 .company {
   font-weight: 700;
   font-size: 18px;
