@@ -273,11 +273,7 @@ strong {
   color: var(--second-accent-color);
   background-color: var(--accent-color);
   border-color: transparent;
-}
 
-
-/* Делаем кнопку */
-.button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -413,8 +409,9 @@ strong {
 }
 
 .sub-btn-pln {
+  display: flex;
   position: relative;
-}
+  }
 
 .plane-icon {
   position: absolute;
@@ -685,6 +682,7 @@ strong {
 .footer-flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .footer .logo {
@@ -838,7 +836,7 @@ strong {
   transform: scale(1) translate(-50%, -50%);
   width: 528px;
   height: 581px;
-
+  
   background-color: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1035,9 +1033,9 @@ textarea {
 .order .button {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -15px  );
   margin-top: 30px;
-}
+  }
 
 .phone-icon,
 .name-icon,
