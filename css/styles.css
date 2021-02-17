@@ -1019,7 +1019,7 @@ textarea {
 
   .checkbox:checked + .icon-v{
     background-color: var(--accent-color);
-    background-image: url('./images/v.svg');
+    background-image: url('/images/v.svg');
     background-size: cover;
     background-origin: border-box;
     border-color: var(--accent-color);
