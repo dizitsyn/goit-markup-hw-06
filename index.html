@@ -449,8 +449,8 @@
         </div>
         <div class="subscription-block">
             <div class="footer-fields">
-                <label for="subscription">Подпишитесь на рассылку</label>
-                <input type="email" name="subscription" id="subscription" placeholder="E-mail">
+                <input class="form-input" type="email" name="subscription" id="subscription" placeholder="E-mail">
+                <label class="form-label" for="subscription">Подпишитесь на рассылку</label>
             </div>
             <div class="sub-btn-pln">
             <button type="submit" class="button">Подписаться</button>
@@ -473,29 +473,44 @@
         <form class="order" >
             
                 <div class="fields">
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name">
+                <input class="form-input" type="text" name="name" id="name">
+                <label class="form-label" for="name">Имя</label>
+                 <svg class="name-icon modal-icon" width="12px" height="12px">
+                       <use href="./images/main-opt.svg#icon-name"> </use>
+                 </svg>
             </div>
 
             <div class="fields">
-                <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel">
+                <input class="form-input" type="tel" name="tel" id="tel">
+                <label class="form-label" for="tel">Телефон</label>
+                <svg class="phone-icon modal-icon" width="13px" height="13px">
+                    <use href="./images/main-opt.svg#icon-phone"> </use>
+                </svg>
             </div>
 
-            <div class="fields">
-                <label for="email">Почта</label>
-                <input type="email" name="email" id="email">
+            <div class="fields">                
+                <input class="form-input" type="email" name="email" id="email">
+                <label class="form-label" for="email">Почта</label>
+                <svg class="env-icon modal-icon" width="13px" height="12px">
+                    <use href="./images/main-opt.svg#icon-env"> </use>
+                </svg>
             </div>
 
-            <div class="text-area">
-                <label for="comment">Комментарий</label>    
-                <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
+            <div class="fields text-area">
+                <textarea class="form-input" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                <label class="form-label" for="comment">Комментарий
+                    
+                </label>
+                
             </div>
             
-            <div class="fields">
-                <input type="checkbox" name="apr" id="apr">
-                <label for="apr">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-            </div>
+            <div class="fields checkbox-cont">
+                <label class="checkbox-lbl" for="apr">
+                <input class="checkbox" type="checkbox" name="apr" id="apr">
+                <span class="icon-v"></span>
+                    Соглашаюсь с рассылкой и принимаю &nbsp <a href="" class="contract">Условия договора</a></label>
+                    </label>
+                </div>
 
             <button class="button">Отправить</button>
         </form>
